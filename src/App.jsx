@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,13 +5,13 @@ function App() {
     <div>
       <nav>
         <div className='logo'>
-          <img src="" alt="" />
+          <img src="../img/chariot.png" alt="logo here" />
         </div>
         <ul>
-          <li>Menu</li>
-          <li>Evenement</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li href= "#">Menu</li>
+          <li href= "#">Evenement</li>
+          <li href= "#">About</li>
+          <li href= "#">Contact</li>
         </ul>
 
         <button>Login</button>
