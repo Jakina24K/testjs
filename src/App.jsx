@@ -1,21 +1,9 @@
 import './App.css';
-
+import navbar  from './components/navbar';
 function App() {
   return (
     <div>
-      <nav>
-        <div className='logo'>
-          <img src="../img/chariot.png" alt="logo here" />
-        </div>
-        <ul>
-          <li href= "#">Menu</li>
-          <li href= "#">Evenement</li>
-          <li href= "#">About</li>
-          <li href= "#">Contact</li>
-        </ul>
-
-        <button>Login</button>
-      </nav>
+      <navbar/>
     </div>
   );
 }
