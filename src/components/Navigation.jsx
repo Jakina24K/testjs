@@ -1,10 +1,11 @@
+const image = require('../img/jakina-inc-logo.png');
 function Navigation () {
 
     return (
 
         <nav className="container">
             <div className='logo'>
-                <img src="/img/chariot.png" alt="logo here" />
+                <img src={image} alt="logo here" className='logo-image'/>
             </div>
             <ul>
                 <li href="#">Menu</li>
