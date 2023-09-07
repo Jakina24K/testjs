@@ -1,32 +1,33 @@
-:root{
-    --red : #d83f3f;
-    --blue : #7aaae2;
-    --gray : #757373;
+:root {
+    --red: #d83f3f;
+    --blue: #637a94;
+    --gray: #757373;
 }
 
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container{
-    margin: 0 auto;  
-    max-width: 1280px;  
+.container {
+    margin: 0 auto;
+    max-width: 1336px;
 }
 
-*{
+* {
     margin: 0;
 }
 
-button{
-    all : unset;
+button {
+    all: unset;
     padding: 6px 16px;
     background: var(--blue);
     height: 32px;
     color: white;
     font-weight: 500;
+    border: 1px solid gray;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     height: 72px;
@@ -34,7 +35,7 @@ nav{
 }
 
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     gap: 24px;
@@ -43,57 +44,70 @@ nav ul{
 .hero {
     display: flex;
     align-items: center;
-    height:calc(100vh - 72px);
+    height: calc(100vh - 72px);
 }
 
-.hero-content{
+.hero-content {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.hero h1{
+.hero h1 {
     font-weight: 800;
     line-height: 80px;
     font-size: 70px;
+    color: var(--blue);
 }
 
-.hero p{
+.hero p {
     font-weight: 600;
     color: var(--gray);
     max-width: 400px;
 }
 
-.hero-btn{
+.hero-btn {
     display: flex;
     gap: 40px;
 }
 
-.hero-btn button{
+.hero-btn button {
     font-size: 24px;
 }
 
-.secondary-btn{
+.secondary-btn {
     background: transparent;
     color: var(--gray);
     border: 1px solid gray;
 }
 
-.shopping{
+.shopping {
     font-size: 14px;
     margin-bottom: 8px;
 }
-.platform{
+
+.platform {
     display: flex;
     gap: 16px;
 }
 
-.logo-image{
-    width: 100px;
+.logo-image {
+    width: 120px;
     height: auto;
-    margin-top: 18px;
+    margin-top: 40px;
 }
 
-.hip_image{
+.hip_image {
     width: 30px;
+}
+
+.hi_hero{
+    width: 700px;
+    height: auto;
+    margin-bottom: 30px;    
+}
+
+.class_btn{
+    display: flex;
+    gap: 10px;
 }
