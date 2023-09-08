@@ -8,7 +8,7 @@ function HeroSection() {
         <main className="hero container">
             <div className="hero-content">
                 <h1>LET US IN DA ROCK'N ROLL</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae enim itaque exercitationem repellendus quas labore facilis dicta quod </p>
+                <p>Music can change the World because it changes PEOPLE</p>
                 <div className="hero-btn">
                     <button>Shop now</button>
                     <button className='secondary-btn'>Category</button>
